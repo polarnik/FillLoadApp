@@ -64,7 +64,7 @@
           <intProp name="LoopController.loops">-1</intProp>
         </elementProp>
         <stringProp name="ThreadGroup.num_threads">10</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">5</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">30</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
@@ -84,20 +84,20 @@
           <hashTree>
             <kg.apc.jmeter.timers.VariableThroughputTimer guiclass="kg.apc.jmeter.timers.VariableThroughputTimerGui" testclass="kg.apc.jmeter.timers.VariableThroughputTimer" testname="jp@gc - Throughput Shaping Timer" enabled="true">
               <collectionProp name="load_profile">
-                <collectionProp name="84472499">
-                  <stringProp name="48">0</stringProp>
-                  <stringProp name="48">0</stringProp>
+                <collectionProp name="140439713">
+                  <stringProp name="49">1</stringProp>
+                  <stringProp name="49">1</stringProp>
+                  <stringProp name="1629">30</stringProp>
+                </collectionProp>
+                <collectionProp name="140468512">
+                  <stringProp name="49">1</stringProp>
                   <stringProp name="53">5</stringProp>
+                  <stringProp name="1629">30</stringProp>
                 </collectionProp>
-                <collectionProp name="-637030860">
-                  <stringProp name="49">1</stringProp>
-                  <stringProp name="1567">10</stringProp>
-                  <stringProp name="48625">100</stringProp>
-                </collectionProp>
-                <collectionProp name="-190250352">
-                  <stringProp name="1567">10</stringProp>
-                  <stringProp name="49">1</stringProp>
-                  <stringProp name="48625">100</stringProp>
+                <collectionProp name="141331304">
+                  <stringProp name="53">5</stringProp>
+                  <stringProp name="48">0</stringProp>
+                  <stringProp name="1629">30</stringProp>
                 </collectionProp>
               </collectionProp>
             </kg.apc.jmeter.timers.VariableThroughputTimer>
